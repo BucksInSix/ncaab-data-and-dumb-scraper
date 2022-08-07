@@ -6,7 +6,7 @@ The file 'sports-reference' is a current version of the sqlite database through 
 
 Also, I'll be adding some queries to find some interesting players. The first one called base_query returns any year a freshman had a 2%+ steal and block rate (for defensive disruption) while making 1+ three pointer per 40 minutes and shoot 75%+ from the free throw line (for some shooting capability). Then, it's ordered by BPM descending to find the most impactful (roughly since BPM is nowhere near perfect) players first. This first query returns:
 
-Player Year School Class Height Minutes Usage TS 3P_per_40 3P% FT% STL% BLK% WS BPM
+Player Year School Class Height Minutes Usage TS 3P_per_40 3P% FT% STL% BLK% WS BPM\n
 Jabari Smith	2022	Auburn Tigers	FR	6-10	978.0	27.6	0.57	3.2	0.42	0.799	2.1	3.8	5.6	11.1
 Marcus Smart	2013	Oklahoma State Cowboys	FR	6-4	1106.0	27.2	0.532	1.4	0.29	0.777	5.3	2.2	5.4	10.8
 Jonathan Isaac	2017	Florida State Seminoles	FR	6-10	839.0	20.3	0.614	1.5	0.348	0.78	2.4	6.2	4.3	10.0
