@@ -96,6 +96,5 @@ def get_school_links() -> List[dict]:
     return all_links
 
 
-# Adding new whitespace to test something
 if __name__ == '__main__':
     main()
